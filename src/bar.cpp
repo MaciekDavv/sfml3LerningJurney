@@ -9,8 +9,8 @@
 int main()
 {
     std::vector<int> data{56, 81, 24, 55, 11};
-    auto dataN{ data.size() };
-    auto dataMax{ *std::max_element(data.begin(), data.end()) };
+    const auto dataN{ data.size() };
+    const auto dataMax{ *std::ranges::max_element(data) };
 
     sf::RenderWindow window(sf::VideoMode({800, 600}), "title");
 
