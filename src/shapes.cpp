@@ -15,7 +15,6 @@ int main() {
 	sf::ConvexShape shape;
 	shape.setFillColor(sf::Color::Green);
 	shape.setOutlineColor(sf::Color::Blue);
-	//shape.setOutlineThickness(5.f);
 	shape.setPosition({400.f, 300.f});
 	const size_t n = 8 * 6;
 	float radius = 200.f;
